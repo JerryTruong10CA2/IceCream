@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import numpy as np
 filename = 'IceCreamData.pickle'
 model = pickle.load(open(filename, "rb"))
 st.title('Revenue Prediction')
